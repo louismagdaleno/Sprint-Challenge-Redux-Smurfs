@@ -23,7 +23,7 @@ const initialState = {
   Components can then read your store as, `state` and not `state.fooReducer`.
 */
 
-export const smurfsReducer = {state = initialState, action } => {
+export const smurfsReducer = (state = initialState, action ) => {
   switch (action.type) {
     case FETCHING:
       return { ...state, fetchingSmurfs: true };
