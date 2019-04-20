@@ -135,6 +135,7 @@ Example of object created in Smurf DB:
   }
 ];
 ```
+MVP COMPLETE!
 
 ## STRETCH PROBLEM
 
